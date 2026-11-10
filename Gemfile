@@ -66,7 +66,7 @@ end
 
 gem "devise", "~> 5.0"
 
-gem "bootstrap-sass", "~> 3.3.5"
+gem "bootstrap-sass", "~> 3.4.1"
 
 gem "sprockets-rails", "~> 3.5"
 
