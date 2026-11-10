@@ -1,0 +1,14 @@
+<% @posts.each do |x| %>
+  <div>
+    <%= image_tag x.image.url(:medium) %>
+    <br>
+    <%= x.description %>
+    <div class="link">
+      <% if x.user == current_user %>
+        <%= link_to "Destroy", x, data: { turbo_method: :delete, turbo_confirm: "Are you sure?" } %>
+        <%= link_to "Edit", edit_post_path(x) %>
+      <% end %>
+      <%= link_to "Show", x %>
+    </div>
+  </div>
+<% end %>

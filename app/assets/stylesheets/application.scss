@@ -1,0 +1,23 @@
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+body { background: #fafafa; }
+
+.row > .col-lg-12 > div {
+  background: #fff;
+  border: 1px solid #dbdbdb;
+  border-radius: 6px;
+  max-width: 400px;
+  margin: 20px auto;
+  padding: 15px;
+}
+
+.row > .col-lg-12 > div img {
+  max-width: 100%;
+  border-radius: 4px;
+}
+
+.link a {
+  margin: 0 6px;
+  font-weight: bold;
+}
